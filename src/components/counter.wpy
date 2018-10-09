@@ -64,7 +64,7 @@
         console.log(`${this.$name} receive ${$event.name} from ${$event.source.$name}`)
       }
     }
-
+    // 声明数据watcher
     watch = {
       num (curVal, oldVal) {
         console.log(`旧值：${oldVal}，新值：${curVal}`)
